@@ -1,6 +1,5 @@
-### README.md
+# The Lost Forge of the Spellsmith
 ![The Lost Forge of the Spellsmith](cover.webp)
-## The Lost Forge of the Spellsmith
 
 ### Act 1: Rumors and Preparation
 
