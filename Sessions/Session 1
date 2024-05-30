@@ -1,168 +1,5 @@
 {
-  "character": {
-    "name": "Cindor",
-    "race": "Fire Genasi",
-    "class": "Eldritch Knight",
-    "background": "Guild Artisan",
-    "level": 1,
-    "alignment": "Neutral Good",
-    "abilities": {
-      "strength": 16,
-      "dexterity": 12,
-      "constitution": 14,
-      "intelligence": 14,
-      "wisdom": 10,
-      "charisma": 8
-    },
-    "modifiers": {
-      "strength": 3,
-      "dexterity": 1,
-      "constitution": 2,
-      "intelligence": 2,
-      "wisdom": 0,
-      "charisma": -1
-    },
-    "savingThrows": {
-      "strength": 5,
-      "dexterity": 1,
-      "constitution": 4,
-      "intelligence": 4,
-      "wisdom": 0,
-      "charisma": -1
-    },
-    "skills": {
-      "acrobatics": 1,
-      "animalHandling": 0,
-      "arcana": 4,
-      "athletics": 5,
-      "deception": -1,
-      "history": 4,
-      "insight": 0,
-      "intimidation": -1,
-      "investigation": 4,
-      "medicine": 0,
-      "nature": 2,
-      "perception": 0,
-      "performance": -1,
-      "persuasion": -1,
-      "religion": 2,
-      "sleightOfHand": 1,
-      "stealth": 1,
-      "survival": 0
-    },
-    "proficiencyBonus": 2,
-    "hitPoints": 12,
-    "armorClass": 18,
-    "initiative": 1,
-    "speed": 30,
-    "features": {
-      "race": [
-        "Darkvision (60 feet)",
-        "Fire Resistance",
-        "Reach to the Blaze"
-      ],
-      "class": [
-        "Fighting Style: Defense",
-        "Second Wind"
-      ],
-      "background": [
-        "Guild Membership"
-      ]
-    },
-    "spells": {
-      "cantrips": [
-        "Fire Bolt",
-        "Mage Hand"
-      ],
-      "spellSlots": {
-        "1st": 2,
-        "2nd": 0,
-        "3rd": 0,
-        "4th": 0
-      }
-    },
-    "equipment": {
-      "armor": "Plate Armor",
-      "weapons": [
-        "Longsword",
-        "Shortbow",
-        "Quiver of Arrows"
-      ],
-      "shield": "Shield",
-      "adventuringGear": [
-        "Explorer's Pack",
-        "Smith's Tools",
-        "Rations (10 days)",
-        "Waterskin",
-        "Tinderbox",
-        "Torches (10)",
-        "50 feet of Hempen Rope"
-      ],
-      "magicalItems": [
-        "Signal Whistle",
-        "Healing Potions (3)"
-      ],
-      "miscellaneousItems": [
-        "Coin Pouch (15 gold pieces)",
-        "Pendant with Guild Symbol"
-      ]
-    },
-    "proficienciesAndLanguages": {
-      "armor": ["All armor", "Shields"],
-      "weapons": ["Simple weapons", "Martial weapons"],
-      "tools": ["Smith's tools"],
-      "languages": ["Common", "Ignan"]
-    },
-    "spellcastingDetails": {
-      "spellcastingAbility": "Intelligence",
-      "spellSaveDC": 12,
-      "spellAttackBonus": 4
-    },
-    "personalityTraits": "I believe that anything worth doing is worth doing right. I can’t help it—I’m a perfectionist.",
-    "ideals": "Aspiration. I work hard to be the best there is at my craft.",
-    "bonds": "One day I will return to my guild and prove that I am the greatest artisan of them all.",
-    "flaws": "I’ll do anything to get my hands on something rare or priceless.",
-    "attacksAndSpellcasting": [
-      {
-        "name": "Longsword",
-        "attackBonus": 5,
-        "damage": "1d8+3 slashing"
-      },
-      {
-        "name": "Fire Bolt",
-        "attackBonus": 4,
-        "damage": "1d10 fire"
-      }
-    ],
-    "passivePerception": 10,
-    "experiencePoints": 225,
-    "featuresAndTraitsDescription": [
-      {
-        "name": "Darkvision",
-        "description": "You can see in darkness (shades of gray) up to 60 feet."
-      },
-      {
-        "name": "Fire Resistance",
-        "description": "You have resistance to fire damage."
-      },
-      {
-        "name": "Reach to the Blaze",
-        "description": "You know the Produce Flame cantrip. Constitution is your spellcasting ability for it."
-      },
-      {
-        "name": "Fighting Style: Defense",
-        "description": "While you are wearing armor, you gain a +1 bonus to AC."
-      },
-      {
-        "name": "Second Wind",
-        "description": "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level."
-      },
-      {
-        "name": "Guild Membership",
-        "description": "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings."
-      }
-    ]
-  },
+  "currentObjective": "Investigate the ritual site at the stone circle to gather more information about the cult's activities and plans.",
   "adventureLog": [
     {
       "session": 1,
@@ -173,25 +10,118 @@
           "npcs": ["Eleria Whispersong"]
         },
         {
-          "description": "Cindor researched the Elemental Blade of Prometheus at the Grand Library of Ashenwall and learned about its history and connection to his ancestors.",
-          "location": "Emberhold, Grand Library of Ashenwall"
+          "description": "Cindor researched the Elemental Blade of Prometheus at the Grand Library of Ashenwall and learned about its history and connection to his ancestors. He discovered that the blade was lost during the Calamity and hidden in the Spellsmith's forge in Emberfall.",
+          "location": "Emberhold, Grand Library of Ashenwall",
+          "npcs": ["Archivist Maren", "Rothgar the Rogue Scholar"]
         },
         {
-          "description": "Cindor and Eleria secured assistance from Captain Zara Stormshield at the City Guard Headquarters, receiving maps and supplies for their journey.",
+          "description": "Cindor and Eleria secured assistance from Captain Zara Stormshield at the City Guard Headquarters, receiving maps, supplies, and information about the Hand of Ash's movements.",
           "location": "Emberhold, City Guard Headquarters",
           "npcs": ["Captain Zara Stormshield"]
         },
         {
-          "description": "Cindor and Eleria navigated through the Whispering Woods, discovering a hidden path near the Old Watchtower and investigating an abandoned campsite.",
+          "description": "Cindor and Eleria navigated through the Whispering Woods, discovering a hidden path near the Old Watchtower and investigating an abandoned campsite. They found a pendant bearing the symbol of the Hand of Ash and a journal with notes about a ritual and a gathering at the stone circle.",
           "location": "Whispering Woods, Old Watchtower"
         },
         {
-          "description": "Cindor and Eleria approached the stone circle and discovered remnants of a cult ritual, indicating recent activity by the Hand of Ash.",
+          "description": "Cindor and Eleria approached the stone circle and discovered remnants of a ritual performed by the Hand of Ash. The site was marked by glowing runes, and tracks led away from the circle.",
           "location": "Whispering Woods, Stone Circle"
         }
       ],
       "experiencePointsAwarded": 225
     }
   ],
-  "currentObjective": "Investigate the ritual site at the stone circle to gather more information about the cult's activities and plans."
+  "npcs": {
+    "Eleria Whispersong": {
+      "description": "A striking woman in her mid-thirties, Eleria is a historian with a passion for uncovering ancient lore. She has fiery red hair, emerald-green eyes, and a deep knowledge of history and magic. Eleria is practical and strategic, complementing Cindor's martial skills with her intellectual prowess.",
+      "relationship": "Ally",
+      "lastLocation": "With Cindor"
+    },
+    "Archivist Maren": {
+      "description": "A stern yet kind elderly woman, Maren is the archivist of the Grand Library of Ashenwall. Her eyes betray a wealth of wisdom.",
+      "relationship": "Informative",
+      "lastLocation": "Emberhold, Grand Library of Ashenwall"
+    },
+    "Rothgar the Rogue Scholar": {
+      "description": "A shadowy figure dealing in forbidden and forgotten knowledge. Rothgar dwells in the shadows of the Grand Library of Ashenwall, offering guidance for a price.",
+      "relationship": "Informative",
+      "lastLocation": "Emberhold, Grand Library of Ashenwall"
+    },
+    "Captain Zara Stormshield": {
+      "description": "Leader of the City Guard, Captain Stormshield provided maps and supplies for the journey. She is tough and pragmatic, valuing balance and order.",
+      "relationship": "Supportive",
+      "lastLocation": "Emberhold, City Guard Headquarters"
+    }
+  },
+  "locations": {
+    "Emberhold": {
+      "description": "A bustling city with the Grand Library of Ashenwall and the City Guard Headquarters.",
+      "visited": true
+    },
+    "The Embered Hearth Tavern": {
+      "description": "A cozy tavern in Emberhold where Cindor and Eleria first discussed their plans and gathered information.",
+      "visited": true
+    },
+    "Grand Library of Ashenwall": {
+      "description": "A vast repository of knowledge where Cindor researched the Elemental Blade of Prometheus.",
+      "visited": true
+    },
+    "City Guard Headquarters": {
+      "description": "The base of operations for the city guard, led by Captain Zara Stormshield.",
+      "visited": true
+    },
+    "Whispering Woods": {
+      "description": "A dense and mysterious forest north of Emberhold, known for its treacherous terrain and eerie atmosphere.",
+      "visited": true,
+      "keyLocations": {
+        "Old Watchtower": {
+          "description": "An ancient, crumbling structure providing a vantage point for scouting the area.",
+          "visited": true
+        },
+        "Hidden Path": {
+          "description": "A faint, recently used trail discovered near the Old Watchtower, leading deeper into the forest.",
+          "visited": true
+        },
+        "Stone Circle": {
+          "description": "An ancient ritual site within the Whispering Woods, marked by glowing runes and used by the Hand of Ash for their rituals.",
+          "visited": true
+        }
+      }
+    }
+  },
+  "importantClues": [
+    {
+      "description": "Pendant bearing the symbol of the Hand of Ash found at the abandoned campsite.",
+      "status": "Found"
+    },
+    {
+      "description": "Journal mentioning a ritual and gathering at the stone circle.",
+      "status": "Found"
+    }
+  ],
+  "keyFindings": [
+    {
+      "name": "Elemental Blade of Prometheus",
+      "description": "A powerful weapon forged in the fires of creation, tied to Cindor's ancestors. Last seen in Emberfall, hidden in the Spellsmith's forge."
+    },
+    {
+      "name": "Hand of Ash",
+      "description": "A cult seeking to revive their ancient god through the power of the Lost Forge. They have increased activity around Emberfall and use the Whispering Woods for their movements."
+    },
+    {
+      "name": "Campsite Clues",
+      "description": "Footprints and a pendant indicating recent cult activity, along with a journal mentioning a ritual and gathering at the stone circle."
+    }
+  ],
+  "currentObjectives": [
+    {
+      "objective": "Investigate the ritual site at the stone circle to gather more information about the cult's activities and plans."
+    },
+    {
+      "objective": "Track the cultists by following the tracks leading away from the stone circle."
+    },
+    {
+      "objective": "Avoid detection to gather intelligence and proceed safely."
+    }
+  ]
 }
