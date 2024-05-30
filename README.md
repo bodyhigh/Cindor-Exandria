@@ -1,5 +1,5 @@
 ### README.md
-
+![The Quest for the Elemental Blade](Quest_Elemental_Blade_cover_art.webp)
 # The Quest for the Elemental Blade
 
 ## Introduction
