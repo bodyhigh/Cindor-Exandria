@@ -1,60 +1,67 @@
-# Cindor
+# Cindor, the Fire Genasi Eldritch Knight
 
-## Level 2 Eldritch Knight (Fighter)
+---
+## Level 2 | Neutral Good
 
-**Race:** Fire Genasi  
-**Background:** Guild Artisan (Smith)  
-**Alignment:** Neutral Good
+* **Class:** Fighter (Eldritch Knight)
+* **Race:** Fire Genasi
+* **Background:** Guild Artisan (Smith)
 
+---
+
+## Core Stats
+
+| Ability     | Score | Modifier | Saving Throw |
+|-------------|-------|---------|-------------|
+| Strength    | 18    | +4      | +6           |
+| Dexterity   | 12    | +1      | +1           |
+| Constitution| 16    | +3      | +5           |
+| Intelligence| 15    | +2      | +4           |
+| Wisdom     | 12    | +1      | +1           |
+| Charisma    | 13    | +1      | +1           |
+
+**Proficiency Bonus:** +2
 **Experience Points:** 550
 
 ---
 
-### Abilities
+## Hit Points & Armor Class
 
-| Ability      | Score | Modifier | Saving Throw |
-|:-------------|:-----:|:--------:|:------------:|
-| Strength     |  18   |   +4     |      +6      |
-| Dexterity    |  12   |   +1     |      +1      |
-| Constitution |  16   |   +3     |      +5      |
-| Intelligence |  15   |   +2     |      +4      |
-| Wisdom      |  12   |   +1     |      +1      |
-| Charisma     |  13   |   +1     |      +1      |
-
-**Proficiency Bonus:** +2
+* **Hit Points:** 25/25
+* **Hit Dice:** 2d10
+* **Armor Class:** 18
 
 ---
 
-### Combat Stats
+## Combat
 
-| Stat          | Value |
-|:--------------|:-----:|
-| Armor Class   |  18   |
-| Initiative    |  +1   |
-| Speed         | 30 ft |
-| Hit Points    |  25   |
-| Hit Dice      | 2d10  |
+### Attacks & Spellcasting
 
-**Attacks:**
+| Attack             | Attack Bonus | Damage            |
+|:-------------------|:------------:|:-----------------|
+| Longsword          | +6          | 1d8 + 4 slashing  |
+| Fire Bolt (Cantrip) | +4          | 1d10 fire        |
 
-| Attack       | Attack Bonus | Damage            |
-|:-------------|:------------:|:-----------------|
-| Longsword    |      +6      | 1d8 + 4 slashing  |
-| Fire Bolt    |      +4      | 1d10 fire        |
+**Spell Slots (1st Level):** 2 Remaining
 
-**Spellcasting:**
+### Cantrips (At-Will)
 
-| Detail                | Value           |
-|:----------------------|:---------------:|
-| Spellcasting Ability | Intelligence    |
-| Spell Save DC        | 12              |
-| Spell Attack Bonus   | +4              |
-| Cantrips             | Fire Bolt, Mage Hand |
-| 1st Level Spell Slots | 2                |
+* **Fire Bolt:** Make a ranged spell attack against a creature or object within 120 feet. On a hit, the target takes 1d10 fire damage.
+* **Mage Hand:** A spectral, floating hand appears and can manipulate objects, open unlocked doors or containers, stow or retrieve small items, or pour contents out of a vial.
+
+### 1st Level Spells
+
+* **Shield (Reaction):** When you are hit by an attack or targeted by the *magic missile* spell, you can cast this spell as a reaction. An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and youtake no damage from *magic missile*.
+* **Absorb Elements (Reaction):** When you take acid, cold, fire, lightning, or thunder damage, you can use your reaction to cast this spell. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.
+
+### Combat Features
+
+* **Second Wind (Bonus Action):** On your turn, regain 1d10 + 2 hit points.
+* **Action Surge (1/Rest):** Take an additional action on your turn.
 
 ---
 
-### Skills
+## Skills
 
 | Skill             | Modifier |
 |:-------------------|:--------:|
@@ -79,44 +86,46 @@
 
 **Passive Perception:** 11
 
----
+## Other Proficiencies
 
-### Features and Traits 
-
-* **Racial:**
-    - **Darkvision:** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.
-    - **Fire Resistance:** You have resistance to fire damage.
-    - **Reach to the Blaze:** You know the *Produce Flame* cantrip. Constitution is your spellcasting ability for it.
-
-* **Class:**
-    - **Fighting Style (Defense):** While you are wearing armor, you gain a +1 bonus to AC.
-    - **Second Wind:** On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
-    - **Action Surge:** You can take one additional action on your turn. You can use this feature once per short or long rest.
-
-* **Background:**
-    - **Guild Membership:** You can rely on certain benefits that your guild membership provides, including lodging and food if necessary. 
+* **Languages:** Common, Ignan
+* **Armor:** All armor, Shields
+* **Weapons:** Simple Weapons, Martial Weapons
+* **Tools:** Smith's Tools
 
 ---
 
-### Equipment
+## Racial Features
+
+* **Darkvision (60 feet):** You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.
+* **Fire Resistance:** You have resistance to fire damage.
+* **Reach to the Blaze:** You know the *Produce Flame* cantrip. Constitution is your spellcasting ability for it.
+
+---
+
+## Class Features
+
+* **Fighting Style: Defense:** While you are wearing armor, you gain a +1 bonus to AC.
+
+
+## Background Feature
+
+* **Guild Membership:** You can rely on certain benefits that your guild membership provides, including lodging and food if necessary.
+
+---
+## Equipment
 
 * **Armor:** Plate Armor
 * **Weapons:** Longsword, Shortbow, Quiver of Arrows
 * **Shield:** Shield
-* **Adventuring Gear:** Explorer's Pack, Smith's Tools, Rations (10 days), Waterskin, Tinderbox, Torches (10), 50 feet of Hempen Rope
+* **Pack:** Explorer's Pack
+* **Tools:** Smith's Tools
+* **Other Gear:** Rations (10 days), Waterskin, Tinderbox, 10 torches, 50 feet of hempen rope
 * **Magical Items:** Signal Whistle, Healing Potions (3)
-* **Miscellaneous:** Coin Pouch (15 gold pieces), Pendant with Guild Symbol
-
-**Proficiencies:**
-
-* **Armor:** All armor, Shields
-* **Weapons:** Simple weapons, Martial weapons
-* **Tools:** Smith's tools
-* **Languages:** Common, Ignan
+* **Trinkets:** Coin Pouch (15 gold pieces), Pendant with Guild Symbol
 
 ---
-
-### Personality
+## Personality
 
 * **Traits:** "I believe that anything worth doing is worth doing right. I can’t help it—I’m a perfectionist."
 * **Ideals:** "Aspiration. I work hard to be the best there is at my craft."
