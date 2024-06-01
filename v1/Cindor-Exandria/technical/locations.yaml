@@ -1,5 +1,0 @@
-- name: Water Wheel
-  description: An old, abandoned water wheel.
-  events:
-    - session: 1
-      details: Investigation revealed a hidden mechanism.

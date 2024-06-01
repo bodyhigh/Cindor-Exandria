@@ -1,5 +1,1 @@
-session1:
-  - encounter: Water wheel investigation
-    experience: 200
-session2:
-  ...
+sessions: []
