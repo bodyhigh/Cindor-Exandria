@@ -1,0 +1,5 @@
+- name: Tharivol
+  relationship: Companion
+  events:
+    - session: 1
+      details: Helped investigate the water wheel.
