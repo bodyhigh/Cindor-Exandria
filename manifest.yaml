@@ -90,6 +90,19 @@ schemas:
           spellcastingAbility: "String"
           spellSaveDC: "Integer"
           spellAttackBonus: "Integer"
+        personalityTraits: "String"
+        ideals: "String"
+        bonds: "String"
+        flaws: "String"
+        attacksAndSpellcasting:
+          - name: "String"
+            attackBonus: "Integer"
+            damage: "String"
+        passivePerception: "Integer"
+        experiencePoints: "Integer"
+        featuresAndTraitsDescription:
+          - name: "String"
+            description: "String"
   experiences:
     description: "Schema for experiences.yaml"
     format:
