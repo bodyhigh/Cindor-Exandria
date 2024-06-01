@@ -1,1 +1,9 @@
-people: []
+people:
+  - name: "Eleria Whispersong"
+    description: "A historian with a passion for uncovering ancient lore. She has fiery red hair, emerald-green eyes, and a deep knowledge of history and magic."
+  - name: "Archivist Maren"
+    description: "A stern yet kind elderly woman, Maren is the archivist of the Grand Library of Ashenwall. Her eyes betray a wealth of wisdom."
+  - name: "Rothgar the Rogue Scholar"
+    description: "A shadowy figure dealing in forbidden and forgotten knowledge. Rothgar dwells in the shadows of the Grand Library of Ashenwall, offering guidance for a price."
+  - name: "Captain Zara Stormshield"
+    description: "Leader of the City Guard, Captain Stormshield provided maps and supplies for the journey. She is tough and pragmatic, valuing balance and order."

@@ -1,2 +1,14 @@
-short_term: []
-long_term: []
+missions:
+  short_term:
+    - mission: "Investigate the ritual site"
+      status: "In Progress"
+      objectives: 
+        - "Gather information about the cult's activities"
+        - "Track the cultists"
+        - "Avoid detection"
+  long_term:
+    - mission: "Uncover the secrets of the Lost Forge"
+      status: "In Progress"
+      objectives: 
+        - "Research the Elemental Blade of Prometheus"
+        - "Find the Lost Forge of the Spellsmith"

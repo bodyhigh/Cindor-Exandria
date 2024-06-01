@@ -1,1 +1,12 @@
-locations: []
+locations:
+  - name: "Emberhold"
+    description: "A bustling city with the Grand Library of Ashenwall and the City Guard Headquarters."
+  - name: "Whispering Woods"
+    description: "A dense and mysterious forest north of Emberhold, known for its treacherous terrain and eerie atmosphere."
+    keyLocations:
+      - name: "Old Watchtower"
+        description: "An ancient, crumbling structure providing a vantage point for scouting the area."
+      - name: "Hidden Path"
+        description: "A faint, recently used trail discovered near the Old Watchtower, leading deeper into the forest."
+      - name: "Stone Circle"
+        description: "An ancient ritual site within the Whispering Woods, marked by glowing runes and used by the Hand of Ash for their rituals."
