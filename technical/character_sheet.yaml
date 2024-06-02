@@ -5,6 +5,7 @@ character:
   race: "Fire Genasi"
   background: "Guild Artisan (Smith)"
   alignment: "Neutral Good"
+  
   abilityScores:
     strength: 18
     dexterity: 12
@@ -12,6 +13,7 @@ character:
     intelligence: 15
     wisdom: 12
     charisma: 13
+  
   modifiers:
     strength: 4
     dexterity: 1
@@ -19,6 +21,7 @@ character:
     intelligence: 2
     wisdom: 1
     charisma: 1
+  
   savingThrows:
     strength: 6
     dexterity: 1
@@ -26,6 +29,7 @@ character:
     intelligence: 4
     wisdom: 1
     charisma: 1
+  
   skills:
     acrobatics: 1
     animalHandling: 1
@@ -45,11 +49,21 @@ character:
     sleightOfHand: 1
     stealth: 1
     survival: 1
-  proficiencyBonus: 2
-  hitPoints: 25
-  armorClass: 18
-  initiative: 1
-  speed: 30
+
+  combat:
+    proficiencyBonus: 2
+    hitPoints: 25
+    armorClass: 18
+    initiative: 1
+    speed: 30
+    attacksAndSpellcasting:
+      - name: "Elemental Blade of Prometheus"
+        attackBonus: 6
+        damage: "1d8+4 slashing"
+      - name: "Fire Bolt"
+        attackBonus: 4
+        damage: "1d10 fire"
+  
   features:
     race:
       - "Darkvision (60 feet)"
@@ -61,7 +75,11 @@ character:
       - "Action Surge (1 use)"
     background:
       - "Guild Membership"
-  spells:
+  
+  spellcasting:
+    spellcastingAbility: "Intelligence"
+    spellSaveDC: 12
+    spellAttackBonus: 4
     cantrips:
       - "Fire Bolt"
       - "Mage Hand"
@@ -70,10 +88,51 @@ character:
       2nd: 0
       3rd: 0
       4th: 0
+    knownSpells:
+      - "Shield"
+      - "Burning Hands"
+      - "Magic Missile"
+    availableSpells:
+      1stLevel:
+        - name: "Absorb Elements"
+          chosen: false
+        - name: "Burning Hands"
+          chosen: true
+        - name: "Charm Person"
+          chosen: false
+        - name: "Chromatic Orb"
+          chosen: false
+        - name: "Color Spray"
+          chosen: false
+        - name: "Detect Magic"
+          chosen: false
+        - name: "Disguise Self"
+          chosen: false
+        - name: "Expeditious Retreat"
+          chosen: false
+        - name: "False Life"
+          chosen: false
+        - name: "Feather Fall"
+          chosen: false
+        - name: "Fog Cloud"
+          chosen: false
+        - name: "Jump"
+          chosen: false
+        - name: "Mage Armor"
+          chosen: false
+        - name: "Magic Missile"
+          chosen: true
+        - name: "Protection from Evil and Good"
+          chosen: false
+        - name: "Shield"
+          chosen: true
+        - name: "Thunderwave"
+          chosen: false
+  
   equipment:
     armor: "Plate Armor"
     weapons:
-      - "Magical Longsword (+1 Longsword, Elemental Strike)"
+      - "Elemental Blade of Prometheus (Magical Longsword)"
       - "Shortbow"
       - "Quiver of Arrows"
     shield: "Shield"
@@ -94,6 +153,7 @@ character:
     otherItems:
       - "Runed Dagger (magical focus for binding elemental spirits)"
       - "Ritual Notes and Map"
+  
   proficienciesAndLanguages:
     armor:
       - "All armor"
@@ -106,7 +166,46 @@ character:
     languages:
       - "Common"
       - "Ignan"
-  spellcastingDetails:
-    spellcastingAbility: "Intelligence"
-    spellSaveDC: 12
-    spellAttackBonus: 4
+  
+  personality:
+    traits: >
+      Cindor is driven by a relentless pursuit of knowledge and perfection in his craft. He values hard work, precision, and the pursuit of excellence. Despite his fiery nature, he is thoughtful and strategic, often considering the long-term consequences of his actions. His dedication to uncovering ancient secrets and mastering esoteric forging techniques defines his path as an Eldritch Knight.
+    ideals: >
+      Aspiration: Cindor strives to be the best at his craft and believes that his skills can help make the world a better place.
+    bonds: >
+      Cindor is deeply connected to his guild and his ancestral heritage. The search for the Elemental Blade of Prometheus is not only a personal quest but also a way to honor his ancestors and their legacy.
+    flaws: >
+      Cindor's perfectionism can sometimes lead to frustration and impatience with himself and others. His relentless pursuit of rare and priceless artifacts can make him vulnerable to making risky decisions.
+  
+  backstory: >
+    Cindor is a Fire Genasi Eldritch Knight with a rich history tied to ancient forging techniques from the Age of Arcana. Born with the elemental heritage of fire, Cindor's fiery nature was evident from a young age. He was apprenticed to the Guild of Flame and Steel, where he mastered the art of sword-making. His relentless pursuit of perfection and esoteric knowledge often led him to study techniques considered blasphemous against the gods. Despite the controversy, Cindor's skills grew unparalleled, and he earned the title "Holder of the Dragon's Flame."
+
+    Driven by a desire to uncover lost secrets and ancient artifacts, Cindor traveled the world, learning from master swordsmiths and seeking the legendary Elemental Blade of Prometheus. This blade, a powerful artifact from his ancestors, was lost during the Calamity and hidden in the Spellsmith's forge in Emberfall. Cindor's quest for the blade brought him to Emberhold, where he met Eleria Whispersong, a historian with a deep knowledge of ancient lore.
+
+    Together, they embarked on a perilous journey through dense forests, treacherous mountains, and eerie swamps, uncovering clues about the Elemental Blade and the sinister cult of the Hand of Ash. Their adventures tested Cindor's martial prowess, arcane abilities, and unwavering determination. Along the way, Cindor's understanding of the balance between fire and steel deepened, solidifying his path as an Eldritch Knight dedicated to mastering both combat and magic.
+  
+  notableQuests:
+    - name: "The Lost Forge of the Spellsmith"
+      description: >
+        Cindor's primary quest is to locate the Lost Forge of the Spellsmith in Emberfall, where the Elemental Blade of Prometheus is believed to be hidden. This blade is not only a powerful weapon but also a significant piece of his heritage, holding the potential to unlock even greater secrets of elemental forging.
+    - name: "Cult of the Hand of Ash"
+      description: >
+        During his quest, Cindor discovered the activities of the Hand of Ash, a cult seeking to revive their ancient god through the power of the Lost Forge. Thwarting their plans and uncovering their secrets has become an integral part of his journey.
+  
+  passivePerception: 11
+  experiencePoints: 775
+  featuresAndTraitsDescription:
+    - name: "Darkvision"
+      description: "You can see in darkness (shades of gray) up to 60 feet."
+    - name: "Fire Resistance"
+      description: "You have resistance to fire damage."
+    - name: "Reach to the Blaze"
+      description: "You know the Produce Flame cantrip. Constitution is your spellcasting ability for it."
+    - name: "Fighting Style: Defense"
+      description: "While you are wearing armor, you gain a +1 bonus to AC."
+    - name: "Second Wind"
+      description: "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level."
+    - name: "Action Surge"
+      description: "On your turn, you can take one additional action. This can be used once per short or long rest."
+    - name: "Guild Membership"
+      description: "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings."
