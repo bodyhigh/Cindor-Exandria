@@ -37,7 +37,7 @@ With the new information and resources we've gathered, our immediate objectives 
 3. Report our findings back to Emberhold and seek further support from Captain Zara Stormshield.
 
 ### Experience Gained
-Total experience points earned: 450
+Total experience points earned: 775
 
 ## Images
 Include the following images to visually represent the day's adventures:
