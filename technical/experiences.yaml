@@ -1,26 +1,43 @@
-sessions:
-  - session_id: 1
-    date: "2023-05-01"
-    title: "Meeting Eleria Whispersong"
-    description: "Cindor met Eleria Whispersong at the Embered Hearth Tavern. Eleria shared information about the Lost Forge of the Spellsmith and the Elemental Blade of Prometheus."
-    events: ["Cindor met Eleria Whispersong", "Learned about the Lost Forge of the Spellsmith"]
-  - session_id: 1
-    date: "2023-05-01"
-    title: "Research at the Grand Library of Ashenwall"
-    description: "Cindor researched the Elemental Blade of Prometheus at the Grand Library of Ashenwall, learning its history and connection to his ancestors."
-    events: ["Research at the Grand Library", "Learned about the Elemental Blade"]
-  - session_id: 1
-    date: "2023-05-01"
-    title: "Assistance from Captain Zara Stormshield"
-    description: "Cindor and Eleria secured assistance from Captain Zara Stormshield at the City Guard Headquarters, receiving maps, supplies, and information about the Hand of Ash's movements."
-    events: ["Secured assistance from Captain Zara", "Received maps and supplies"]
-  - session_id: 1
-    date: "2023-05-01"
-    title: "Navigating through the Whispering Woods"
-    description: "Cindor and Eleria navigated through the Whispering Woods, discovering a hidden path near the Old Watchtower and investigating an abandoned campsite."
-    events: ["Discovered hidden path", "Investigated abandoned campsite"]
-  - session_id: 1
-    date: "2023-05-01"
-    title: "Approaching the Stone Circle"
-    description: "Cindor and Eleria approached the stone circle and discovered remnants of a ritual performed by the Hand of Ash."
-    events: ["Approached the stone circle", "Discovered remnants of a ritual"]
+experiences:
+  sessions:
+    - session_id: 1
+      date: "2023-05-20"
+      title: "The Beginning of the Quest"
+      description: >
+        Cindor and Eleria embark on their journey to uncover the secrets of the Lost Forge of the Spellsmith, facing various challenges and uncovering vital clues about the Hand of Ash and the Elemental Blade of Prometheus.
+      events:
+        - event_order: 1
+          description: >
+            Cindor meets Eleria Whispersong at the Embered Hearth Tavern. Eleria shares vital information about the Lost Forge of the Spellsmith and the Elemental Blade of Prometheus.
+          location: "Emberhold, Embered Hearth Tavern"
+          npcs: ["Eleria Whispersong"]
+
+        - event_order: 2
+          description: >
+            Cindor and Eleria head to the Grand Library of Ashenwall. Cindor delves into the history of the Elemental Blade of Prometheus, uncovering its connection to his ancestors. They receive guidance from Archivist Maren and Rothgar the Rogue Scholar.
+          location: "Emberhold, Grand Library of Ashenwall"
+          npcs: ["Archivist Maren", "Rothgar the Rogue Scholar"]
+
+        - event_order: 3
+          description: >
+            Cindor and Eleria secure assistance from Captain Zara Stormshield at the City Guard Headquarters. They receive maps, supplies, and crucial information about the Hand of Ash's movements.
+          location: "Emberhold, City Guard Headquarters"
+          npcs: ["Captain Zara Stormshield"]
+
+        - event_order: 4
+          description: >
+            Cindor and Eleria navigate through the Whispering Woods. They discover a hidden path and an abandoned campsite with clues about the cult's activities.
+          location: "Whispering Woods, Old Watchtower"
+          npcs: []
+
+        - event_order: 5
+          description: >
+            At the eerie stone circle within the Whispering Woods, Cindor and Eleria find a pendant and a journal indicating recent cult activity. The site is marked by glowing runes and filled with magical energy.
+          location: "Whispering Woods, Stone Circle"
+          npcs: []
+
+        - event_order: 6
+          description: >
+            Cindor and Eleria discover a hidden cove guarded by the Hand of Ash cultists. They engage in a fierce battle, defeating the cultists and securing important artifacts, including a runed dagger and ritual notes.
+          location: "Whispering Woods, Hidden Cove"
+          npcs: ["Leader of the Hand of Ash Cultists", "Cultists of the Hand of Ash"]

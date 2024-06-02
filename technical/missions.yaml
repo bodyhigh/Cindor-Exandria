@@ -1,14 +1,37 @@
 missions:
   short_term:
-    - mission: "Investigate the ritual site"
-      status: "In Progress"
-      objectives: 
-        - "Gather information about the cult's activities"
-        - "Track the cultists"
-        - "Avoid detection"
-  long_term:
-    - mission: "Uncover the secrets of the Lost Forge"
-      status: "In Progress"
-      objectives: 
+    - mission: "Investigate the Hidden Cove"
+      status: "Completed"
+      objectives:
+        - "Locate the hidden cove in the Whispering Woods"
+        - "Defeat the Hand of Ash cultists"
+        - "Secure any artifacts and clues"
+
+    - mission: "Explore the Grand Library of Ashenwall"
+      status: "Completed"
+      objectives:
         - "Research the Elemental Blade of Prometheus"
-        - "Find the Lost Forge of the Spellsmith"
+        - "Uncover its connection to Cindor's ancestors"
+        - "Seek guidance from Archivist Maren and Rothgar the Rogue Scholar"
+
+    - mission: "Investigate the Ritual Site at the Stone Circle"
+      status: "In Progress"
+      objectives:
+        - "Follow the tracks leading away from the stone circle"
+        - "Gather intelligence on the cult's activities"
+        - "Avoid detection by the Hand of Ash cultists"
+
+  long_term:
+    - mission: "Locate the Lost Forge of the Spellsmith"
+      status: "In Progress"
+      objectives:
+        - "Find the ancient forge in Emberfall"
+        - "Retrieve the Elemental Blade of Prometheus"
+        - "Uncover the secrets of the forge's power"
+
+    - mission: "Thwart the Hand of Ash"
+      status: "In Progress"
+      objectives:
+        - "Disrupt the cult's plans to revive their ancient god"
+        - "Identify and eliminate key cult leaders"
+        - "Protect Emberhold and its inhabitants from the cult's influence"

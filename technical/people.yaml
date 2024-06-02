@@ -1,9 +1,28 @@
 people:
   - name: "Eleria Whispersong"
-    description: "A historian with a passion for uncovering ancient lore. She has fiery red hair, emerald-green eyes, and a deep knowledge of history and magic."
+    description: >
+      A striking woman in her mid-thirties, Eleria is a historian with a passion for uncovering ancient lore. She has fiery red hair, emerald-green eyes, and a deep knowledge of history and magic. Eleria is practical and strategic, complementing Cindor's martial skills with her intellectual prowess. She is currently accompanying Cindor on his quest to find the Lost Forge of the Spellsmith.
+
   - name: "Archivist Maren"
-    description: "A stern yet kind elderly woman, Maren is the archivist of the Grand Library of Ashenwall. Her eyes betray a wealth of wisdom."
+    description: >
+      Archivist Maren is a stern yet kind elderly woman who oversees the Grand Library of Ashenwall. Her eyes betray a wealth of wisdom, and she has been instrumental in helping Cindor uncover the history of the Elemental Blade of Prometheus. She provided guidance and access to crucial texts during Cindor's research.
+
   - name: "Rothgar the Rogue Scholar"
-    description: "A shadowy figure dealing in forbidden and forgotten knowledge. Rothgar dwells in the shadows of the Grand Library of Ashenwall, offering guidance for a price."
+    description: >
+      Rothgar is a shadowy figure dealing in forbidden and forgotten knowledge. He dwells in the dimly lit alcoves of the Grand Library of Ashenwall, offering guidance to those who seek him out—for a price. His extensive knowledge of arcane secrets and the dark arts has proven invaluable in Cindor's quest.
+
   - name: "Captain Zara Stormshield"
-    description: "Leader of the City Guard, Captain Stormshield provided maps and supplies for the journey. She is tough and pragmatic, valuing balance and order."
+    description: >
+      Captain Zara Stormshield is the tough and pragmatic leader of the City Guard in Emberhold. She provided Cindor and Eleria with maps, supplies, and crucial information about the Hand of Ash's movements. She values balance and order and has offered support to aid in their journey.
+
+  - name: "Leader of the Hand of Ash Cultists"
+    description: >
+      The leader of the Hand of Ash cultists encountered in the hidden cove. Distinguished by his elaborate robes and commanding presence, he orchestrated dark rituals in an attempt to revive their ancient god. He was defeated by Cindor and Eleria during a fierce battle.
+
+  - name: "Elder Priest of the Hand of Ash"
+    description: >
+      An elder priest of the Hand of Ash, deeply involved in the cult’s rituals and dark ceremonies. His fanatical devotion to the ancient god and knowledge of forbidden magic make him a formidable adversary. Encountered during the battle at the hidden cove, he provided insight into the cult's plans.
+
+  - name: "Cultists of the Hand of Ash"
+    description: >
+      A group of fanatic followers of the Hand of Ash cult. They are fiercely loyal and dedicated to reviving their ancient god through dark rituals. These cultists were encountered in various locations, including the hidden cove and the stone circle, and were involved in guarding significant sites related to their plans.

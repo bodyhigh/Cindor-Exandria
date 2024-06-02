@@ -6,6 +6,16 @@ manifest:
   people: "technical/people.yaml"
   missions: "technical/missions.yaml"
   images_directory: "images"
+  journal_style:
+    layout: >
+      The journal is structured with sections for the session title, overview, journey log, notable events, learnings and reflections, next steps, and experience gained. Each section is clearly marked with headers and sub-headers.
+    tone: >
+      The tone is immersive and narrative, aiming to draw the reader into the adventure with vivid descriptions and engaging storytelling.
+    pov: >
+      The journal entries are written from the first-person point of view of Cindor, providing personal insights and reflections on the events and encounters.
+    styling: >
+      The journal uses markdown for formatting, with headers for each section, bullet points for lists, and inline code for emphasis where needed. Images are included to visually represent key moments (ex. hand drawn battle map with diagrams and character placement).
+
 schemas:
   character_sheet:
     description: "Schema for character_sheet.yaml"
@@ -73,6 +83,9 @@ schemas:
             2nd: "Integer"
             3rd: "Integer"
             4th: "Integer"
+          knownSpells: "List of Strings"
+          availableSpells:
+            1stLevel: "List of Dictionaries"
         equipment:
           armor: "String"
           weapons: "List of Strings"
@@ -90,19 +103,16 @@ schemas:
           spellcastingAbility: "String"
           spellSaveDC: "Integer"
           spellAttackBonus: "Integer"
-        personalityTraits: "String"
-        ideals: "String"
-        bonds: "String"
-        flaws: "String"
-        attacksAndSpellcasting:
-          - name: "String"
-            attackBonus: "Integer"
-            damage: "String"
+        personality:
+          traits: "String"
+          ideals: "String"
+          bonds: "String"
+          flaws: "String"
+        backstory: "String"
+        notableQuests: "List of Dictionaries"
         passivePerception: "Integer"
         experiencePoints: "Integer"
-        featuresAndTraitsDescription:
-          - name: "String"
-            description: "String"
+        featuresAndTraitsDescription: "List of Dictionaries"
   experiences:
     description: "Schema for experiences.yaml"
     format:
@@ -111,7 +121,11 @@ schemas:
           date: "String (YYYY-MM-DD)"
           title: "String"
           description: "String"
-          events: "List of Strings"
+          events:
+            - event_order: "Integer"
+              description: "String"
+              location: "String"
+              npcs: "List of Strings"
   locations:
     description: "Schema for locations.yaml"
     format:
