@@ -6,6 +6,7 @@ manifest:
   people: "technical/people.yaml"
   missions: "technical/missions.yaml"
   images_directory: "images"
+  persona: "technical/persona.yaml"
   journal_style:
     layout: >
       The journal is structured with sections for the session title, overview, journey log, notable events, learnings and reflections, next steps, and experience gained. Each section is clearly marked with headers and sub-headers.
@@ -14,7 +15,7 @@ manifest:
     pov: >
       The journal entries are written from the first-person point of view of Cindor, providing personal insights and reflections on the events and encounters.
     styling: >
-      The journal uses markdown for formatting, with headers for each section, bullet points for lists, and inline code for emphasis where needed. Images are included to visually represent key moments (ex. hand drawn battle map with diagrams and character placement).
+      The journal uses markdown for formatting, with headers for each section, bullet points for lists, and inline code for emphasis where needed. Images are included to visually represent key moments.
 
 schemas:
   character_sheet:
@@ -149,3 +150,12 @@ schemas:
         - mission: "String"
           status: "String"
           objectives: "List of Strings"
+  persona:
+    description: "Schema for persona.yaml"
+    format:
+      name: "String"
+      description: "String"
+      influences: "List of Strings"
+      gameplay_preferences: "List of Strings"
+      player_preferences: "List of Strings"
+      dm_notes: "List of Dictionaries"

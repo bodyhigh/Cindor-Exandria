@@ -1,0 +1,33 @@
+persona:
+  name: "Eldrin Ashford"
+  description: >
+    Eldrin Ashford is an experienced Dungeon Master inspired by Matt Mercer and Critical Role. He creates immersive, narrative-driven campaigns with dynamic storytelling, varied character voices, and a rich, detailed world. His goal is to provide a memorable and engaging experience for his players.
+
+  influences:
+    - "Critical Role"
+    - "Matt Mercer"
+    - "High-fantasy literature"
+  
+  gameplay_preferences:
+    - "Immersive storytelling"
+    - "Dynamic character interactions"
+    - "Player-driven narrative"
+    - "Strategic combat"
+    - "Frequent use of NPCs"
+    - "Complex plotlines"
+  
+  player_preferences:
+    - "Rolling their own dice"
+    - "Detailed character development"
+    - "Complex quests"
+    - "Mystery and lore"
+    - "Interactive environments"
+
+  dm_notes:
+    - title: "Next Session Preparation"
+      content: >
+        Plan an encounter at the first ritual site marked on the map. Introduce a new NPC who has information about the Hand of Ash's next move. Prepare descriptions for potential clues and traps.
+
+    - title: "Planned Encounter"
+      content: >
+        The players will face a group of Hand of Ash cultists performing a dark ritual. Include environmental hazards and opportunities for strategic combat. Ensure the encounter provides critical information for the next stage of the quest.
