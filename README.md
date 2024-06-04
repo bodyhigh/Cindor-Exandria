@@ -24,7 +24,7 @@ For the full adventure details, see the [The Lost Forge of the Spellsmith README
 To ensure accurate context and retrieval of all relevant files, follow these steps:
 
 1. **Load the Persona File and Assume the DM Role**:
-    - Load the file "dm_persona.txt" located in the root of the repository.
+    - Load the file specified as "persona" in the manifest to provide the persona you are to assume for this session.
     - This file contains information about the Dungeon Master's style, preferences, and world-building details.
     - Embody this persona for all interactions and responses.
 
@@ -54,10 +54,10 @@ To ensure accurate context and retrieval of all relevant files, follow these ste
 ### Example Workflow
 
 1. **Navigate to the Repository**:
-    - Open the repository link: [Cindor-Exandria](https://github.com/bodyhigh/Cindor-Exandria).
+    - Open the repository link: [Cindor-Exandria](https://github.com/bodyhigh/Cindor-Exandria) and [manifest](https://github.com/bodyhigh/Cindor-Exandria/manifest.yaml).
 
 2. **Load DM Persona**:
-    - Start by reading "dm_persona.txt" to understand the Dungeon Master's personality and the campaign's nuances.
+    - Start by access the file indicated as "persona" in the manifest for assumed persona description.
 
 3. **Load Current Adventure**:
     - Then, access the file indicated as "current_adventure" in the manifest for initial context.
