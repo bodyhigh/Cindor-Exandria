@@ -54,7 +54,7 @@ To ensure accurate context and retrieval of all relevant files, follow these ste
 ### Example Workflow
 
 1. **Navigate to the Repository**:
-    - Open the repository link: [Cindor-Exandria](https://github.com/bodyhigh/Cindor-Exandria) and [manifest](https://github.com/bodyhigh/Cindor-Exandria/manifest.yaml).
+    - Open the repository link: [Cindor-Exandria](https://github.com/bodyhigh/Cindor-Exandria) and [manifest](./manifest.yaml).
 
 2. **Load DM Persona**:
     - Start by access the file indicated as "persona" in the manifest for assumed persona description.
