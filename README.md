@@ -65,3 +65,53 @@ The narrative of the campaign, titled "The Lost Forge of the Spellsmith," is det
 
 For the full adventure details, see the [The Lost Forge of the Spellsmith README](./sample-adventures/the-lost-forge-of-the-spellsmith/README.md).
 
+## Instructions for AI Assistance
+
+### Accessing and Ingesting Files
+
+To ensure accurate context and retrieval of all relevant files, follow these steps:
+
+1. **Load Current Adventure First**:
+    - Begin with the file specified as "current_adventure" in the manifest to provide context for the rest of the content.
+    - Example: To access the current adventure, use the link provided in the manifest.
+
+2. **Direct File Access**:
+    - Always refer to the specific file links provided in the manifest for accurate content.
+    - Example: To access a session, use the link: [Session 1](https://github.com/bodyhigh/Cindor-Exandria/blob/main/journal/Session_1.md).
+
+3. **Read All Journal Entries in Order**:
+    - Access each journal entry file in the order specified within the manifest or directory.
+    - Ensure each entry is read sequentially to maintain the narrative flow.
+
+4. **Content Summarization**:
+    - Download and read the file content directly from the provided URLs.
+    - Summarize the content accurately based on the actual text in the files.
+
+5. **Avoid Generalizations**:
+    - Do not make assumptions or generalizations about the content.
+    - Stick strictly to the information provided within the files.
+
+6. **Report Errors**:
+    - If there's an issue accessing any file, report it immediately instead of generating content based on assumptions.
+
+### Example Workflow
+
+1. **Navigate to the Repository**:
+    - Open the repository link: [Cindor-Exandria](https://github.com/bodyhigh/Cindor-Exandria).
+
+2. **Load Current Adventure**:
+    - Start with the file indicated as "current_adventure" in the manifest for initial context.
+
+3. **Locate and Access Additional Files**:
+    - Follow the paths specified in the manifest to find session journals, character sheets, and other relevant documents.
+
+4. **Read Journal Entries in Order**:
+    - Sequentially read each journal entry file as specified in the manifest or directory listing.
+
+5. **Download and Read the Files**:
+    - Use the raw file URLs to download and read the content, ensuring no details are assumed or fabricated.
+
+6. **Summarize the Content**:
+    - Provide summaries based strictly on the file content.
+
+By following these instructions, future AI interactions should accurately access, summarize, and maintain continuity in the adventure logs.
