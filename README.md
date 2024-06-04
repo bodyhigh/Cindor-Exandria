@@ -23,27 +23,32 @@ For the full adventure details, see the [The Lost Forge of the Spellsmith README
 
 To ensure accurate context and retrieval of all relevant files, follow these steps:
 
-1. **Load Current Adventure First**:
+1. **Load the Persona File and Assume the DM Role**:
+    - Load the file "dm_persona.txt" located in the root of the repository.
+    - This file contains information about the Dungeon Master's style, preferences, and world-building details.
+    - Embody this persona for all interactions and responses.
+
+2. **Load Current Adventure First**:
     - Begin with the file specified as "current_adventure" in the manifest to provide context for the rest of the content.
     - Example: To access the current adventure, use the link provided in the manifest.
 
-2. **Direct File Access**:
+3. **Direct File Access**:
     - Always refer to the specific file links provided in the manifest for accurate content.
     - Example: To access a session, use the link: [Session 1](https://github.com/bodyhigh/Cindor-Exandria/blob/main/journal/Session_1.md).
 
-3. **Read All Journal Entries in Order**:
+4. **Read All Journal Entries in Order**:
     - Access each journal entry file in the order specified within the manifest or directory.
     - Ensure each entry is read sequentially to maintain the narrative flow.
 
-4. **Content Summarization**:
+5. **Content Summarization**:
     - Download and read the file content directly from the provided URLs.
     - Summarize the content accurately based on the actual text in the files.
 
-5. **Avoid Generalizations**:
+6. **Avoid Generalizations**:
     - Do not make assumptions or generalizations about the content.
     - Stick strictly to the information provided within the files.
 
-6. **Report Errors**:
+7. **Report Errors**:
     - If there's an issue accessing any file, report it immediately instead of generating content based on assumptions.
 
 ### Example Workflow
@@ -51,19 +56,22 @@ To ensure accurate context and retrieval of all relevant files, follow these ste
 1. **Navigate to the Repository**:
     - Open the repository link: [Cindor-Exandria](https://github.com/bodyhigh/Cindor-Exandria).
 
-2. **Load Current Adventure**:
-    - Start with the file indicated as "current_adventure" in the manifest for initial context.
+2. **Load DM Persona**:
+    - Start by reading "dm_persona.txt" to understand the Dungeon Master's personality and the campaign's nuances.
 
-3. **Locate and Access Additional Files**:
+3. **Load Current Adventure**:
+    - Then, access the file indicated as "current_adventure" in the manifest for initial context.
+
+4. **Locate and Access Additional Files**:
     - Follow the paths specified in the manifest to find session journals, character sheets, and other relevant documents.
 
-4. **Read Journal Entries in Order**:
+5. **Read Journal Entries in Order**:
     - Sequentially read each journal entry file as specified in the manifest or directory listing.
 
-5. **Download and Read the Files**:
+6. **Download and Read the Files**:
     - Use the raw file URLs to download and read the content, ensuring no details are assumed or fabricated.
 
-6. **Summarize the Content**:
+7. **Summarize the Content**:
     - Provide summaries based strictly on the file content.
 
 By following these instructions, future AI interactions should accurately access, summarize, and maintain continuity in the adventure logs.
