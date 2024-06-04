@@ -1,48 +1,61 @@
-# Session 1: The Beginning of the Quest
+# The Beginning of the Quest
 
 ## Overview
-Cindor, a Fire Genasi Eldritch Knight, began his quest to uncover the secrets of the Lost Forge of the Spellsmith. Joined by Eleria Whispersong, a knowledgeable historian, they embarked on a journey filled with peril and discovery, uncovering vital clues about the Hand of Ash and the Elemental Blade of Prometheus.
+Cindor and Eleria embark on a perilous journey to uncover the secrets of the Lost Forge of the Spellsmith, encountering cultists and ancient lore. This session details their initial meetings, research, and early encounters.
 
 ## Journey Log
-Today was a day of significant encounters and discoveries. As we ventured through Emberhold and the Whispering Woods, we encountered key individuals and uncovered critical information about the Hand of Ash and their sinister plans.
 
 ### Meeting Eleria Whispersong
-At the Embered Hearth Tavern, I met Eleria Whispersong, a striking woman with fiery red hair and emerald-green eyes. She approached me with vital information about the Lost Forge of the Spellsmith and the Elemental Blade of Prometheus. We decided to join forces and embark on this perilous journey together.
+Today began in the cozy Embered Hearth Tavern in Emberhold. As I nursed my drink, a striking woman with fiery red hair and emerald-green eyes approached me. This was Eleria Whispersong, a historian with a passion for ancient lore. She shared tales of the Lost Forge of the Spellsmith and the Elemental Blade of Prometheus, a blade tied to my ancestors. Eleria's knowledge and enthusiasm were infectious, and it wasn't long before we decided to join forces. Her insight into the ancient mysteries aligned perfectly with my quest, and I felt a renewed sense of purpose.
 
-### Researching at the Grand Library of Ashenwall
-Our next stop was the Grand Library of Ashenwall, a vast repository of knowledge. With the guidance of Archivist Maren and Rothgar the Rogue Scholar, I delved into the history of the Elemental Blade of Prometheus, uncovering its connection to my ancestors. The library's ancient tomes and scrolls provided invaluable insights into the blade's origins and its significance.
+- **Location:** Emberhold, Embered Hearth Tavern
+- **NPCs:** Eleria Whispersong
 
-### Securing Assistance from Captain Zara Stormshield
-To better prepare for the challenges ahead, Eleria and I sought the help of Captain Zara Stormshield at the City Guard Headquarters. Captain Stormshield provided us with detailed maps, essential supplies, and crucial information about the Hand of Ash's movements. Her support bolstered our confidence as we ventured into the unknown.
+### Research at the Grand Library of Ashenwall
+Our next stop was the Grand Library of Ashenwall, a vast repository of knowledge. The air was cool and still, filled with the faint scent of old parchment. With the help of Archivist Maren and the shadowy Rothgar the Rogue Scholar, we uncovered the blade's history. It was forged in the fires of creation, wielded by a champion who defied the gods, and lost during the Calamity. The blade is believed to be hidden in the Spellsmith's forge in Emberfall. Each discovery felt like a piece of my heritage being restored, and I could almost feel the weight of the blade in my hand as we pieced together its story.
 
-### Journey through Whispering Woods
-With our preparations complete, we set out towards the Whispering Woods. The forest was dense and foreboding, known for its treacherous terrain and eerie atmosphere. Navigating through key landmarks such as the Old Watchtower, we discovered a hidden path leading deeper into the forest. Along the way, we encountered an abandoned campsite, finding a pendant bearing the symbol of the Hand of Ash and a journal with notes about a ritual and a gathering at the stone circle.
+- **Location:** Emberhold, Grand Library of Ashenwall
+- **NPCs:** Archivist Maren, Rothgar the Rogue Scholar
+
+### Assistance from Captain Zara Stormshield
+Seeking further aid, we visited the City Guard Headquarters and met Captain Zara Stormshield. She provided us with maps, supplies, and critical information about the Hand of Ash's movements, cautioning us to maintain a low profile to avoid attracting the cult's attention. Captain Stormshield's no-nonsense demeanor and strategic mind were reassuring. Her assistance meant we were better prepared for the dangers ahead, and her belief in our mission bolstered our resolve.
+
+- **Location:** Emberhold, City Guard Headquarters
+- **NPCs:** Captain Zara Stormshield
+
+### Journey through the Whispering Woods
+We set out at first light towards the Whispering Woods, navigating through dense forests and treacherous terrain. The forest was alive with the sounds of nature, but there was an eerie silence beneath the canopy. We discovered a hidden path near the Old Watchtower and investigated an abandoned campsite. There, we found a pendant bearing the symbol of the Hand of Ash and a journal with notes about a ritual and a gathering at the stone circle. The campsite was a stark reminder of the cult's pervasive influence, and the artifacts we found were clues that would guide our next steps.
+
+- **Location:** Whispering Woods, Old Watchtower
+- **Key Findings:** Pendant with Hand of Ash symbol, Journal with ritual notes
 
 ### Investigating the Stone Circle
-Following the hidden path, we reached an ancient stone circle. The site was marked by glowing runes and remnants of a ritual setup, including candles and ritual knives. The air felt charged with lingering magic, and tracks leading away from the circle indicated that the cultists had recently moved on. This discovery added another layer of mystery and danger to our journey.
+Following the hidden path, we reached an ancient stone circle marked by glowing runes and remnants of a ritual setup. Tracks leading away from the circle indicated recent cult activity, adding another layer of urgency to our quest. The air was charged with lingering magic, and the runes seemed to whisper secrets of forgotten power. This discovery was both thrilling and ominous, a testament to the power and danger of our quest.
 
-### Battle at the Hidden Cove
-Our journey through the Whispering Woods led us to a hidden cove guarded by the Hand of Ash cultists. A fierce battle ensued, during which we defeated the cultists and secured important artifacts. Among the items we found were a runed dagger, which Eleria identified as a magical focus for binding elemental spirits, and ritual notes detailing the cult's plans. These artifacts are not only valuable in themselves but also provide critical information about the cult's operations and their connection to the Lost Forge of the Spellsmith.
+- **Location:** Whispering Woods, Stone Circle
 
 ## Notable Events
-- **Battle at the Hidden Cove:** A fierce battle with the Hand of Ash cultists led to the discovery of important artifacts and clues.
+- **Meeting Eleria Whispersong**
+- **Researching at the Grand Library of Ashenwall**
+- **Securing assistance from Captain Zara Stormshield**
+- **Discovering the abandoned campsite**
+- **Investigating the stone circle**
 
-### Learnings and Reflections
-Reflecting on the day's events, I realize the importance of ancient lore and teamwork. The challenges we faced have taught me the potential of the Elemental Blade of Prometheus and the necessity of vigilance against the cult's plans. The artifacts we recovered today are crucial pieces in the puzzle of the Lost Forge. Each encounter, each clue brings us one step closer to our goal.
+## Learnings and Reflections
+Reflecting on today's events, I realize the importance of ancient lore and teamwork. The journey so far has revealed the potential of the Elemental Blade of Prometheus and the dangers posed by the Hand of Ash. Our combined knowledge and skills have proven invaluable. The deeper we delve, the more I understand the significance of our mission and the weight of my ancestral legacy.
 
-### Next Steps
-With the new information and resources we've gathered, our immediate objectives are:
-1. Investigate the first ritual site marked on the map to uncover more about the cult’s plans.
-2. Track the cultists’ movements to prevent any future threats.
-3. Report our findings back to Emberhold and seek further support from Captain Zara Stormshield.
+## Next Steps
+With the new information and resources we've gathered, our next steps will be to:
+- Investigate the ritual site at the stone circle to gather more information about the cult's activities and plans.
+- Track the cultists by following the tracks leading away from the stone circle.
+- Report our findings back to Emberhold and plan our next move.
 
-### Experience Gained
-Total experience points earned: 775
+## Experience Gained
+Total experience points earned: 450
 
 ## Images
 Include the following images to visually represent the day's adventures:
-- ![Cindor and Eleria at the Embered Hearth Tavern](images/session1_embered_hearth_tavern.png)
-- ![Cindor researching at the Grand Library of Ashenwall](images/session1_grand_library.png)
-- ![The battle at the stone circle](images/session1_stone_circle_battle.png)
-- ![Cindor examining the pendant and journal](images/session1_examining_pendant_journal.png)
-- ![Battle at the Hidden Cove](images/session1_hidden_cove_battle.png)
+- ![Cindor and Eleria at the Embered Hearth Tavern](images/session_1_image1.png)
+- ![Cindor researching at the Grand Library of Ashenwall](images/session_1_image2.png)
+- ![The battle at the stone circle](images/session_1_image3.png)
+- ![Cindor examining the pendant and journal](images/session_1_image4.png)
