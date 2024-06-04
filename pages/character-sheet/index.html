@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive DnD Character Sheet</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Arial', sans-serif;
+    }
+    .character-sheet {
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #343a40;
+      padding-bottom: 5px;
+    }
+    .stat {
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+    }
+    .table th, .table td {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="character-sheet">
+      <h1 id="character-name"></h1>
+      <h2 id="character-class"></h2>
+      <div class="section-title">Attributes</div>
+      <div id="attributes" class="row"></div>
+      <div class="section-title">Skills</div>
+      <div id="skills" class="row"></div>
+      <div class="section-title">Weapons and Attacks</div>
+      <div id="weapons-attacks" class="row"></div>
+      <div class="section-title">Magic and Spells</div>
+      <div id="magic-spells" class="row"></div>
+      <div class="section-title">Equipment</div>
+      <div id="equipment" class="row"></div>
+    </div>
+    <div class="mt-4">
+      <input type="file" id="fileInput" accept=".yaml" />
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#fileInput').on('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            try {
+              const yamlText = e.target.result;
+              console.log('YAML Text:', yamlText); // Debugging line
+              const characterData = jsyaml.load(yamlText);
+              console.log('Parsed Data:', characterData); // Debugging line
+
+              const character = characterData.character;
+
+              if (!character || typeof character !== 'object') {
+                throw new Error('Invalid YAML format');
+              }
+
+              $('#character-name').text(character.name || 'Unknown Name');
+              $('#character-class').text(character.class || 'Unknown Class');
+
+              $('#attributes').empty();
+              if (character.abilityScores && typeof character.abilityScores === 'object') {
+                for (const [key, value] of Object.entries(character.abilityScores)) {
+                  $('#attributes').append(`<div class="col-md-4 stat">${key}: ${value}</div>`);
+                }
+              }
+
+              $('#skills').empty();
+              if (character.skills && typeof character.skills === 'object') {
+                for (const [key, value] of Object.entries(character.skills)) {
+                  $('#skills').append(`<div class="col-md-4 stat">${key}: ${value}</div>`);
+                }
+              }
+
+              $('#weapons-attacks').empty();
+              if (character.combat && Array.isArray(character.combat.attacksAndSpellcasting)) {
+                character.combat.attacksAndSpellcasting.forEach(item => {
+                  $('#weapons-attacks').append(`
+                    <div class="col-md-6">
+                      <div class="stat"><strong>${item.name}</strong></div>
+                      <div class="stat">Attack Bonus: ${item.attackBonus}</div>
+                      <div class="stat">Damage: ${item.damage}</div>
+                    </div>
+                  `);
+                });
+              }
+
+              $('#magic-spells').empty();
+              if (character.spellcasting) {
+                const spellcasting = character.spellcasting;
+                $('#magic-spells').append(`
+                  <div class="col-md-6">
+                    <div class="stat"><strong>Spellcasting Ability:</strong> ${spellcasting.spellcastingAbility}</div>
+                    <div class="stat"><strong>Spell Save DC:</strong> ${spellcasting.spellSaveDC}</div>
+                    <div class="stat"><strong>Spell Attack Bonus:</strong> ${spellcasting.spellAttackBonus}</div>
+                  </div>
+                `);
+
+                if (Array.isArray(spellcasting.cantrips)) {
+                  $('#magic-spells').append(`<div class="col-md-6"><strong>Cantrips:</strong> ${spellcasting.cantrips.join(', ')}</div>`);
+                }
+
+                if (Array.isArray(spellcasting.knownSpells)) {
+                  $('#magic-spells').append(`<div class="col-md-6"><strong>Known Spells:</strong> ${spellcasting.knownSpells.join(', ')}</div>`);
+                }
+
+                if (spellcasting.spellSlots) {
+                  $('#magic-spells').append(`
+                    <div class="col-md-6">
+                      <strong>Spell Slots:</strong>
+                      <div class="stat">1st Level: ${spellcasting.spellSlots['1st']}</div>
+                      <div class="stat">2nd Level: ${spellcasting.spellSlots['2nd']}</div>
+                      <div class="stat">3rd Level: ${spellcasting.spellSlots['3rd']}</div>
+                      <div class="stat">4th Level: ${spellcasting.spellSlots['4th']}</div>
+                    </div>
+                  `);
+                }
+              }
+
+              $('#equipment').empty();
+              if (character.equipment && typeof character.equipment === 'object') {
+                for (const [category, items] of Object.entries(character.equipment)) {
+                  if (Array.isArray(items)) {
+                    items.forEach(item => {
+                      $('#equipment').append(`<div class="col-md-4 stat">${category}: ${item}</div>`);
+                    });
+                  } else {
+                    $('#equipment').append(`<div class="col-md-4 stat">${category}: ${items}</div>`);
+                  }
+                }
+              }
+            } catch (error) {
+              console.error('Error parsing YAML:', error);
+              alert('Failed to load character data. Please check the YAML file format.');
+            }
+          };
+          reader.readAsText(file);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

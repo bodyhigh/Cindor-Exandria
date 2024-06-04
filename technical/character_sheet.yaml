@@ -63,7 +63,12 @@ character:
       - name: "Fire Bolt"
         attackBonus: 4
         damage: "1d10 fire"
-  
+    combatHistory:
+      - encounter: "Battle at the Hidden Cove"
+        outcome: "Victory"
+        notes: >
+          Key strategies included surprise attack with Fire Bolt and tactical use of terrain. Defeated the cult leader, disrupting their ritual.
+
   features:
     race:
       - "Darkvision (60 feet)"
@@ -153,7 +158,13 @@ character:
     otherItems:
       - "Runed Dagger (magical focus for binding elemental spirits)"
       - "Ritual Notes and Map"
-  
+    inventoryNotes:
+      - item: "Elemental Blade of Prometheus"
+        acquired: "Recovered from the Hidden Cove"
+        specialProperties: "Magical, bound with elemental power"
+        usageHistory: >
+          Used in multiple battles against the Hand of Ash, proving its power and significance.
+
   proficienciesAndLanguages:
     armor:
       - "All armor"

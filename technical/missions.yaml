@@ -1,37 +1,35 @@
 missions:
   short_term:
-    - mission: "Investigate the Hidden Cove"
-      status: "Completed"
-      objectives:
-        - "Locate the hidden cove in the Whispering Woods"
-        - "Defeat the Hand of Ash cultists"
-        - "Secure any artifacts and clues"
-
-    - mission: "Explore the Grand Library of Ashenwall"
-      status: "Completed"
-      objectives:
-        - "Research the Elemental Blade of Prometheus"
-        - "Uncover its connection to Cindor's ancestors"
-        - "Seek guidance from Archivist Maren and Rothgar the Rogue Scholar"
-
-    - mission: "Investigate the Ritual Site at the Stone Circle"
+    - mission: "Investigate the ritual site at the stone circle"
       status: "In Progress"
       objectives:
-        - "Follow the tracks leading away from the stone circle"
-        - "Gather intelligence on the cult's activities"
-        - "Avoid detection by the Hand of Ash cultists"
+        - "Examine the stone circle and the glowing runes for more information about the cult's activities."
+        - "Gather intelligence on the cultists' plans."
+      notes: >
+        The stone circle is a key location for the Hand of Ash's rituals. Investigating it thoroughly could reveal their next moves and provide critical clues.
+
+    - mission: "Track the cultists"
+      status: "In Progress"
+      objectives:
+        - "Follow the tracks leading away from the stone circle to uncover their next move."
+        - "Avoid detection while gathering intelligence."
+      notes: >
+        Tracking the cultists will require stealth and caution. The trails they've left might lead to other significant sites or reveal the extent of their operations.
 
   long_term:
-    - mission: "Locate the Lost Forge of the Spellsmith"
+    - mission: "The Lost Forge of the Spellsmith"
       status: "In Progress"
       objectives:
-        - "Find the ancient forge in Emberfall"
-        - "Retrieve the Elemental Blade of Prometheus"
-        - "Uncover the secrets of the forge's power"
+        - "Locate the Lost Forge of the Spellsmith in Emberfall."
+        - "Recover the Elemental Blade of Prometheus."
+        - "Uncover the secrets of the ancient forging techniques."
+      notes: >
+        The Lost Forge of the Spellsmith holds the key to ancient knowledge and power. Finding it will not only fulfill a personal quest for Cindor but also thwart the plans of the Hand of Ash.
 
     - mission: "Thwart the Hand of Ash"
       status: "In Progress"
       objectives:
-        - "Disrupt the cult's plans to revive their ancient god"
-        - "Identify and eliminate key cult leaders"
-        - "Protect Emberhold and its inhabitants from the cult's influence"
+        - "Prevent the Hand of Ash from reviving their ancient god."
+        - "Disrupt their rituals and gather intelligence on their plans."
+      notes: >
+        The Hand of Ash is a significant threat, seeking to revive a dark god through their rituals. Stopping them is crucial to ensuring the safety of Emberhold and the surrounding regions.

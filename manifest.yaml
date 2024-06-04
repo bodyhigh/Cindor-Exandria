@@ -1,4 +1,5 @@
 manifest:
+  current_adventure: "sample-adventures/the-lost-forge-of-the-spellsmith/README.md"
   journal_directory: "journal"
   character_sheet: "technical/character_sheet.yaml"
   experiences: "technical/experiences.yaml"
@@ -114,6 +115,9 @@ schemas:
         passivePerception: "Integer"
         experiencePoints: "Integer"
         featuresAndTraitsDescription: "List of Dictionaries"
+        notableRelationships: "List of Dictionaries"
+        inventoryNotes: "List of Dictionaries"
+        combatHistory: "List of Dictionaries"
   experiences:
     description: "Schema for experiences.yaml"
     format:
@@ -133,12 +137,18 @@ schemas:
       locations:
         - name: "String"
           description: "String"
+          memories: "String"
+          key_locations: "List of Dictionaries"
   people:
     description: "Schema for people.yaml"
     format:
       people:
         - name: "String"
           description: "String"
+          relationship: "String"
+          lastLocation: "String"
+          promises_favors: "String"
+          shared_history: "String"
   missions:
     description: "Schema for missions.yaml"
     format:
@@ -146,10 +156,12 @@ schemas:
         - mission: "String"
           status: "String"
           objectives: "List of Strings"
+          notes: "String"
       long_term:
         - mission: "String"
           status: "String"
           objectives: "List of Strings"
+          notes: "String"
   persona:
     description: "Schema for persona.yaml"
     format:

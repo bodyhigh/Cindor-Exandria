@@ -1,28 +1,50 @@
 people:
   - name: "Eleria Whispersong"
     description: >
-      A striking woman in her mid-thirties, Eleria is a historian with a passion for uncovering ancient lore. She has fiery red hair, emerald-green eyes, and a deep knowledge of history and magic. Eleria is practical and strategic, complementing Cindor's martial skills with her intellectual prowess. She is currently accompanying Cindor on his quest to find the Lost Forge of the Spellsmith.
+      A striking woman in her mid-thirties, Eleria is a historian with a passion for uncovering ancient lore. She has fiery red hair, emerald-green eyes, and a deep knowledge of history and magic. Eleria is practical and strategic, complementing Cindor's martial skills with her intellectual prowess.
+    relationship: "Ally"
+    lastLocation: "With Cindor"
+    promises_favors: >
+      Eleria has promised to help Cindor uncover the secrets of the Lost Forge and the Elemental Blade of Prometheus. They have agreed to share any knowledge and artifacts they find along the way.
+    shared_history: >
+      Cindor met Eleria at the Embered Hearth Tavern, where she shared her knowledge about the Lost Forge and the Elemental Blade. They have since journeyed together through the Whispering Woods, facing numerous challenges and uncovering significant clues about the Hand of Ash.
 
   - name: "Archivist Maren"
     description: >
-      Archivist Maren is a stern yet kind elderly woman who oversees the Grand Library of Ashenwall. Her eyes betray a wealth of wisdom, and she has been instrumental in helping Cindor uncover the history of the Elemental Blade of Prometheus. She provided guidance and access to crucial texts during Cindor's research.
+      A stern yet kind elderly woman, Maren is the archivist of the Grand Library of Ashenwall. Her eyes betray a wealth of wisdom, and she is well-respected for her vast knowledge of history and arcane lore.
+    relationship: "Informative"
+    lastLocation: "Emberhold, Grand Library of Ashenwall"
+    promises_favors: >
+      Maren provided Cindor with crucial information about the Elemental Blade of Prometheus. She has offered to assist with any further research needed.
+    shared_history: >
+      Cindor met Maren during his research at the Grand Library of Ashenwall. She guided him to important texts and introduced him to Rothgar the Rogue Scholar.
 
   - name: "Rothgar the Rogue Scholar"
     description: >
-      Rothgar is a shadowy figure dealing in forbidden and forgotten knowledge. He dwells in the dimly lit alcoves of the Grand Library of Ashenwall, offering guidance to those who seek him out—for a price. His extensive knowledge of arcane secrets and the dark arts has proven invaluable in Cindor's quest.
+      A shadowy figure dealing in forbidden and forgotten knowledge. Rothgar dwells in the shadows of the Grand Library of Ashenwall, offering guidance for a price. His knowledge is extensive, but his motives are often unclear.
+    relationship: "Informative"
+    lastLocation: "Emberhold, Grand Library of Ashenwall"
+    promises_favors: >
+      Rothgar agreed to provide Cindor with guidance on the Elemental Blade of Prometheus in exchange for a future favor. The nature of this favor remains unspecified.
+    shared_history: >
+      Introduced by Archivist Maren, Rothgar provided Cindor with key insights into the ancient forging techniques and the history of the Elemental Blade. His knowledge has been invaluable, though Cindor remains cautious of his true intentions.
 
   - name: "Captain Zara Stormshield"
     description: >
-      Captain Zara Stormshield is the tough and pragmatic leader of the City Guard in Emberhold. She provided Cindor and Eleria with maps, supplies, and crucial information about the Hand of Ash's movements. She values balance and order and has offered support to aid in their journey.
+      Leader of the City Guard, Captain Stormshield is known for her tough and pragmatic approach to maintaining order in Emberhold. She values balance and is dedicated to protecting the city and its inhabitants.
+    relationship: "Supportive"
+    lastLocation: "Emberhold, City Guard Headquarters"
+    promises_favors: >
+      Captain Stormshield provided Cindor and Eleria with maps, supplies, and intelligence on the Hand of Ash. She expects updates on their progress and any information that could help protect Emberhold.
+    shared_history: >
+      Cindor and Eleria sought out Captain Stormshield for assistance. Her support has been crucial in their journey, providing them with the resources needed to navigate the Whispering Woods and confront the Hand of Ash.
 
-  - name: "Leader of the Hand of Ash Cultists"
+  - name: "Hand of Ash Cultists"
     description: >
-      The leader of the Hand of Ash cultists encountered in the hidden cove. Distinguished by his elaborate robes and commanding presence, he orchestrated dark rituals in an attempt to revive their ancient god. He was defeated by Cindor and Eleria during a fierce battle.
-
-  - name: "Elder Priest of the Hand of Ash"
-    description: >
-      An elder priest of the Hand of Ash, deeply involved in the cult’s rituals and dark ceremonies. His fanatical devotion to the ancient god and knowledge of forbidden magic make him a formidable adversary. Encountered during the battle at the hidden cove, he provided insight into the cult's plans.
-
-  - name: "Cultists of the Hand of Ash"
-    description: >
-      A group of fanatic followers of the Hand of Ash cult. They are fiercely loyal and dedicated to reviving their ancient god through dark rituals. These cultists were encountered in various locations, including the hidden cove and the stone circle, and were involved in guarding significant sites related to their plans.
+      A fanatical group seeking to revive their ancient god through dark rituals and the power of the Lost Forge. They are highly secretive and dangerous, posing a significant threat to anyone who opposes them.
+    relationship: "Enemy"
+    lastLocation: "Hidden Cove"
+    promises_favors: >
+      The cultists are relentless in their pursuit of reviving their god. They see Cindor and Eleria as major obstacles to their plans and will stop at nothing to eliminate them.
+    shared_history: >
+      Cindor and Eleria have faced the cultists multiple times, disrupting their rituals and gathering crucial intelligence. Each encounter has been perilous, reinforcing the need to thwart their plans entirely.

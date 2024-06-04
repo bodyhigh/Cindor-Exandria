@@ -1,43 +1,51 @@
 experiences:
   sessions:
     - session_id: 1
-      date: "2023-05-20"
+      date: "2024-06-01"
       title: "The Beginning of the Quest"
       description: >
-        Cindor and Eleria embark on their journey to uncover the secrets of the Lost Forge of the Spellsmith, facing various challenges and uncovering vital clues about the Hand of Ash and the Elemental Blade of Prometheus.
+        Cindor and Eleria embark on a perilous journey to uncover the secrets of the Lost Forge of the Spellsmith, encountering cultists and ancient lore.
       events:
         - event_order: 1
-          description: >
-            Cindor meets Eleria Whispersong at the Embered Hearth Tavern. Eleria shares vital information about the Lost Forge of the Spellsmith and the Elemental Blade of Prometheus.
+          description: "Cindor meets Eleria Whispersong at the Embered Hearth Tavern, learning about the Lost Forge of the Spellsmith and the Elemental Blade of Prometheus."
           location: "Emberhold, Embered Hearth Tavern"
           npcs: ["Eleria Whispersong"]
-
         - event_order: 2
-          description: >
-            Cindor and Eleria head to the Grand Library of Ashenwall. Cindor delves into the history of the Elemental Blade of Prometheus, uncovering its connection to his ancestors. They receive guidance from Archivist Maren and Rothgar the Rogue Scholar.
+          description: "Research at the Grand Library of Ashenwall reveals the blade's history and connection to Cindor's ancestors."
           location: "Emberhold, Grand Library of Ashenwall"
           npcs: ["Archivist Maren", "Rothgar the Rogue Scholar"]
-
         - event_order: 3
-          description: >
-            Cindor and Eleria secure assistance from Captain Zara Stormshield at the City Guard Headquarters. They receive maps, supplies, and crucial information about the Hand of Ash's movements.
+          description: "Assistance from Captain Zara Stormshield provides maps, supplies, and information on the Hand of Ash."
           location: "Emberhold, City Guard Headquarters"
           npcs: ["Captain Zara Stormshield"]
-
         - event_order: 4
-          description: >
-            Cindor and Eleria navigate through the Whispering Woods. They discover a hidden path and an abandoned campsite with clues about the cult's activities.
+          description: "Navigating through the Whispering Woods, discovering a hidden path and an abandoned campsite with clues."
           location: "Whispering Woods, Old Watchtower"
-          npcs: []
-
         - event_order: 5
-          description: >
-            At the eerie stone circle within the Whispering Woods, Cindor and Eleria find a pendant and a journal indicating recent cult activity. The site is marked by glowing runes and filled with magical energy.
+          description: "Finding a pendant and a journal at the stone circle, indicating cult activity."
           location: "Whispering Woods, Stone Circle"
-          npcs: []
-
         - event_order: 6
-          description: >
-            Cindor and Eleria discover a hidden cove guarded by the Hand of Ash cultists. They engage in a fierce battle, defeating the cultists and securing important artifacts, including a runed dagger and ritual notes.
-          location: "Whispering Woods, Hidden Cove"
-          npcs: ["Leader of the Hand of Ash Cultists", "Cultists of the Hand of Ash"]
+          description: "Battle at the Hidden Cove against the Hand of Ash cultists, securing important artifacts."
+          location: "Hidden Cove"
+          npcs: ["Hand of Ash Cultists"]
+      experience_points_awarded: 450
+    - session_id: 2
+      date: "2024-06-08"
+      title: "Investigating the Hand of Ash"
+      description: >
+        Continuing their quest, Cindor and Eleria delve deeper into the Whispering Woods, facing new challenges and uncovering critical information about the Hand of Ash.
+      events:
+        - event_order: 1
+          description: "Discovered more clues at the stone circle about the Hand of Ash's next move."
+          location: "Whispering Woods, Stone Circle"
+        - event_order: 2
+          description: "Tracked the cultists' movements through the forest, avoiding traps and ambushes."
+          location: "Whispering Woods"
+        - event_order: 3
+          description: "Encountered a secondary ritual site guarded by more cultists, resulting in another battle."
+          location: "Secondary Ritual Site"
+          npcs: ["Hand of Ash Cultists"]
+        - event_order: 4
+          description: "Secured additional ritual notes and a map leading to another key location."
+          location: "Secondary Ritual Site"
+      experience_points_awarded: 325
