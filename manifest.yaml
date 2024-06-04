@@ -1,4 +1,5 @@
 manifest:
+  current_adventure: "sample-adventures/the-lost-forge-of-the-spellsmith/README.md"
   journal_directory: "journal"
   character_sheet: "technical/character_sheet.yaml"
   experiences: "technical/experiences.yaml"
