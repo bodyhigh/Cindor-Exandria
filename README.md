@@ -1,4 +1,4 @@
-# DnD Adventure Journal
+# D&D Adventure Journal
 
 ## Overview
 Welcome to the ongoing adventures of Cindor, the Fire Genasi Eldritch Knight. This repository is divided into three main sections:
